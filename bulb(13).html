@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Light Bulb ON/OFF</title>
+</head>
+<body>
+
+    <h2>Turn Light Bulb ON/OFF</h2>
+
+    <img id="bulb" src="/home/user/nourinmca26/web/images/offBulb.jpeg" width="150">
+
+    <br><br>
+
+    <button onclick="turnOn()">ON</button>
+    <button onclick="turnOff()">OFF</button>
+
+    <script>
+        function turnOn() {
+            document.getElementById("bulb").src = "/home/user/nourinmca26/web/images/onBulb.jpeg";
+        }
+
+        function turnOff() {
+            document.getElementById("bulb").src = "/home/user/nourinmca26/web/images/offBulb.jpeg";
+        }
+    </script>
+
+</body>
+</html>
