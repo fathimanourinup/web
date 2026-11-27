@@ -1,0 +1,6 @@
+CREATE TABLE employee_details (
+    Emp_id INT PRIMARY KEY,
+    Emp_name VARCHAR(50),
+    Designation VARCHAR(50),
+    Salary INT
+);
